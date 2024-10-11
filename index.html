@@ -40,19 +40,11 @@
 		&nbsp;
 		<a class="links" href="https://snapchat.com/t/r4YQ9dgZ">SnapChat</a>
 		<br>
-                <h1 style="color: #89b4fa">CJ1899</h1>
-		<br>
 		</header>
 		<br>
 		<div align="center"><img src="images/clrline.gif"></div>
 		<div align="center"><img src="images/clrline.gif"></div>
 		<div align="center"><img src="images/clrline.gif"></div>
-		<br>
-		<div align="center">
-		<img src="images/1.jpg">
-		<img src="images/2.jpg">
-		<video src="vid1.mov">
-		</div>
 		<br>
     <div id="weather-container" class="weather-box">
     <div class="weather-content">
@@ -99,7 +91,7 @@
 
             const timeString = now.toLocaleTimeString('en-GB', options);
 
-            document.querySelector('.time').innerText = `Time: ${timeString}`;
+            document.querySelector('.time').innerText = `Kat: ${timeString}`;
         }
 
         setInterval(updateTime, 1000);
@@ -111,10 +103,10 @@
             .then(data => {
                 const [temp, humidity, wind, condition] = data.split(' ');
 
-                document.querySelector('.temp').innerText = `Temperature: ${temp}`;
-                document.querySelector('.humidity').innerText = `Humidity: ${humidity}`;
-                document.querySelector('.wind').innerText = `Wind Speed: ${wind}`;
-                document.querySelector('.moon-phase').innerText = `Moon Phase: ${condition}`;
+                document.querySelector('.temp').innerText = `Play garmy: ${temp}`;
+                document.querySelector('.humidity').innerText = `Shedary: ${humidity}`;
+                document.querySelector('.wind').innerText = `sare7y ba: ${wind}`;
+                document.querySelector('.moon-phase').innerText = `Rozhy Mang: ${condition}`;
             })
             .catch(error => {
                 document.getElementById('weather-container').innerHTML = `<h3>Error fetching data</h3>`;
@@ -130,8 +122,7 @@
 			<a href="page3.html">3</a>
 			<a href="page2.html"><i class="fa-solid fa-chevron-right"></i></a>
 		</div>
-		<br>
-
+		<br><div align="center"><h1 style="color: green; font-family: JetBrainsMono-Italic; text-shadow: 6px 6px 5px purple ;" align="left">HaMa</h1><img src="images/1.jpg" width="300"; >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<video loop muted playsinline autoplay src="vid1.mov" width="300" ;>Your browser does not support HTML5 video</video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.jpg" width="300;"><h1 style="color: purple; font-family: JetBrainsMono-Italic; text-shadow: 6px 6px 5px green ;" align="right">HaMa</h1></div>
 
 		<br>
 		<div align="center">
